@@ -1,13 +1,13 @@
 while True:
     try:
-        x = int(input('Введите x: '))
+        x = float(input('Введите x: '))
         break
     except Exception:
         print('Ошибка!')
 
 while True:
     try:
-        y = int(input('Введите y: '))
+        y = float(input('Введите y: '))
         break
     except Exception:
         print('Ошибка!')
